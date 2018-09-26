@@ -1,0 +1,50 @@
+
+/*
+    Theme Name: PhotoGenic
+    Author: Amr Aly
+    Author URI: https://github.com/AmroAly
+    Description: Photo Gallery Theme
+    Version: 1.0.0
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+header input {
+    margin-top: 15px;
+}
+
+.pic {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #3333338a;
+    padding: 40px;
+}
+
+.post {
+    padding: 20px;
+}

@@ -30,6 +30,10 @@ img {
     height: auto;
 }
 
+li {
+    list-style: none;
+}
+
 header input {
     margin-top: 15px;
 }

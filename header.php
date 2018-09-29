@@ -16,20 +16,18 @@
                 <h1><?php bloginfo('name'); ?></h1>
             </div>
             <div class="w3-col s3 l3">
-                <input type="text" class="w3-input" placeholder="Search...">
+            <form action="<?php echo esc_url(home_url('/')); ?>" method="get">
+                <input type="text" class="w3-input" placeholder="Search..." name="s">
+            </form>
             </div>
         </div>
     </header>
 
     <div class="w3-row">
         <div class="w3-col s3 l3">
-           <ul class="w3-ul">
-               <li><a href="#">Nature</a></li>
-               <li><a href="#">Animals</a></li>
-               <li><a href="#">Objects</a></li>
-               <li><a href="#">People</a></li>
-               <li><a href="#">Abstracts</a></li>
-           </ul>
+        <?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
+             <?php dynamic_sidebar( 'sidebar' ); ?>
+        <?php endif; ?>
         </div>
         <div class="w3-col s9 l9">
             <div class="w3-row">

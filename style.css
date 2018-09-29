@@ -53,3 +53,7 @@ footer {
 .post {
     padding: 20px;
 }
+.post-thumbnail img {
+   width: 80%;
+   height: auto;
+}
